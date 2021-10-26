@@ -1,0 +1,45 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+img {
+    width: 60rem;
+    height: 40rem;
+}
+
+.image-container {
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-slider {
+    display: flex;
+    width: 100%;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 1%;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 1%;
+    font-size: 3rem;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
